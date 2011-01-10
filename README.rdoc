@@ -2,6 +2,13 @@
 
 Gravatar Gem
 
+= Install
+
+Add in your Gemfile 
+
+gem 'lucasallan-gravatar', :git => 'git@github.com:lucasallan/gravatar.git'
+
+
 = Usage
 
 avatar_url = Gravatar.avatar("lucas.allan@gmail.com")
